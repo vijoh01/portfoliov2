@@ -21,7 +21,7 @@ const MobileNav = () => {
 
 
     return (
-        <div className="w-full h-16 bg-primary-light dark:bg-primary-dark flex justify-evenly items-center fixed bottom-0 sm:hidden">
+        <div className="w-full h-12 bg-primary-light filter bg-opacity-70 dark:bg-primary-dark flex justify-evenly items-center fixed bottom-0 sm:hidden">
             <button onClick={() => handleClick('A')} className="text-primary-dark dark:text-primary-light"><PiUser className={active === 'A' ? `filter brightness-150` : `filter brightness-50`} size={35} /></button>
             <button onClick={() => handleClick('B')} className="text-primary-dark dark:text-primary-light"><PiRocketLaunch className={active === 'B' ? `filter brightness-150` : `filter brightness-50`} size={35} /></button>
             <button onClick={() => handleClick('C')} className="text-primary-dark dark:text-primary-light"><PiProjectorScreenChart className={active === 'C' ? `filter brightness-150` : `filter brightness-50`} size={35} /></button>
