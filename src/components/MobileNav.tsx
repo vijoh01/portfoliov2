@@ -8,7 +8,7 @@ const MobileNav = () => {
 
     const handleClick = (type: any) => {
         setActive(type);
-        const targetElement = document.getElementById(`section${type}`);
+        const targetElement = document.getElementById(`${type}`);
         if (targetElement) {
             const offset = -20;
             const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
@@ -22,10 +22,10 @@ const MobileNav = () => {
 
     return (
         <div className="w-full h-12 bg-primary-light filter bg-opacity-70 dark:bg-primary-dark flex justify-evenly items-center fixed bottom-0 sm:hidden">
-            <button onClick={() => handleClick('A')} className="text-primary-dark dark:text-primary-light"><PiUser className={active === 'A' ? `fill-[black] dark:fill-[white]` : `fill-[#00000073] dark:fill-[#ffffff73]`} size={35} /></button>
-            <button onClick={() => handleClick('B')} className="text-primary-dark dark:text-primary-light"><PiRocketLaunch className={active === 'B' ? `fill-[black] dark:fill-[white]` : `fill-[#00000073] dark:fill-[#ffffff73]`} size={35} /></button>
-            <button onClick={() => handleClick('C')} className="text-primary-dark dark:text-primary-light"><PiProjectorScreenChart className={active === 'C' ? `fill-[black] dark:fill-[white]` : `fill-[#00000073] dark:fill-[#ffffff73]`} size={35} /></button>
-            <button onClick={() => handleClick('D')} className="text-primary-dark dark:text-primary-light"><PiPaperPlane className={active === 'D' ? `fill-[black] dark:fill-[white]` : `fill-[#00000073] dark:fill-[#ffffff73]`} size={35} /></button>
+            <button onClick={() => handleClick('about')} className="text-primary-dark dark:text-primary-light"><PiUser className={active === 'about' ? `fill-[black] dark:fill-[white]` : `fill-[#00000073] dark:fill-[#ffffff73]`} size={35} /></button>
+            <button onClick={() => handleClick('knowledge')} className="text-primary-dark dark:text-primary-light"><PiRocketLaunch className={active === 'knowledge' ? `fill-[black] dark:fill-[white]` : `fill-[#00000073] dark:fill-[#ffffff73]`} size={35} /></button>
+            <button onClick={() => handleClick('projects')} className="text-primary-dark dark:text-primary-light"><PiProjectorScreenChart className={active === 'projects' ? `fill-[black] dark:fill-[white]` : `fill-[#00000073] dark:fill-[#ffffff73]`} size={35} /></button>
+            <button onClick={() => handleClick('contact')} className="text-primary-dark dark:text-primary-light"><PiPaperPlane className={active === 'contact' ? `fill-[black] dark:fill-[white]` : `fill-[#00000073] dark:fill-[#ffffff73]`} size={35} /></button>
         </div>
     );
 };

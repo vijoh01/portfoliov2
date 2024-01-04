@@ -9,7 +9,7 @@ import { PiLayout } from "react-icons/pi";
 
 const About = () => {
     return (
-        <div className="w-full bg-blue-100 flex flex-col items-center justify-between pt-20 md:pt-10" id="sectionA">
+        <div className="w-full bg-blue-100 flex flex-col items-center justify-between pt-20 md:pt-10" id="about">
             <div className="flex flex-col md:flex-row md:justify-evenly items-center w-full pb-20 md:pb-10">
                 <div className="flex flex-col max-w-[17rem] sm:max-w-[27rem]">
                     <h2 className="text-4xl text-primary-dark">Innovative Solutions</h2>

@@ -80,7 +80,7 @@ const Knowledge = () => {
 
 
     return (
-        <div className="w-full bg-primary-dark flex flex-col items-center justify-between pt-20 md:pt-10" id="sectionB">
+        <div className="w-full bg-primary-dark flex flex-col items-center justify-between pt-20 md:pt-10" id="knowledge">
             <div className="flex items-center flex-col text-primary-light max-w-[17rem] sm:max-w-[27rem] pb-20 md:pb-10">
                 <h2 className="text-4xl w-full">Knowledge</h2>
                 <p className="mt-4 text-lg">I am a fast learner who always seeks to improve and expand my knowledge. With proficiency in programming languages and a diverse skill set, I continuously strive to learn more and enhance my abilities.</p>
