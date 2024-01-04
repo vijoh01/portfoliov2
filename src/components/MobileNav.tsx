@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { PiUser, PiRocketLaunch, PiProjectorScreenChart, PiPaperPlane } from "react-icons/pi";
 
 const MobileNav = () => {
-    const [active, setActive] = useState('A');
+    const [active, setActive] = useState(null);
 
     const handleClick = (type: any) => {
         setActive(type);
