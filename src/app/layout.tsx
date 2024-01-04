@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" prefix="og: https://ogp.me/ns#">
+    <html lang="en">
        <head>
         <title>{metadata.ogTitle}</title>
         <meta name="keywords" content={metadata.keywords} />
@@ -29,8 +29,7 @@ export default function RootLayout({
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:url" content={metadata.ogUrl} />
         <meta property="og:description" content={metadata.ogDescription} />
-        <meta property="og:image" content={"@/imgs/vijoh-dark.png"} />
-        <meta property="og:url" content="https://www.vijoh.com/" />
+        <meta property="og:image" content={"./src/imgs/vijoh-dark.png"} />
         <meta property="og:image:width" content="400" />
 
         <script
