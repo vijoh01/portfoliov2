@@ -30,7 +30,7 @@ export default function RootLayout({
         <meta property="og:url" content={metadata.ogUrl} />
         <meta property="og:description" content={metadata.ogDescription} />
         <meta property="og:image" content={"@/imgs/vijoh-dark.png"} />
-        <meta property="og:url" content="https://www.vijoh.com/#contact" />
+        <meta property="og:url" content="https://www.vijoh.com/" />
         <meta property="og:image:width" content="400" />
 
         <script
