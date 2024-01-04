@@ -62,7 +62,7 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
-            <Image className={"pointer-events-none w-full min-w-max scale-150 sm:scale-125 md:scale-110"} loading="lazy" src={white_waves} alt="" />
+            <Image className={"pointer-events-none w-full min-w-max scale-110 sm:scale-100"} loading="lazy" src={white_waves} alt="" />
 
         </div>
     );

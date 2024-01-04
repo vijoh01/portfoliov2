@@ -21,7 +21,7 @@ const About = () => {
                 </div>
                 <PiLayout size={200} className={"hidden md:flex fill-primary-dark"} />
             </div>
-            <Image className="pointer-events-none w-full min-w-max inset-0 scale-150 sm:scale-125 md:scale-110" loading="lazy" src={blue_waves_bottom} alt="Vijoh Light Logo" />
+            <Image className="pointer-events-none w-full min-w-max inset-0 scale-110 sm:scale-100" loading="lazy" src={blue_waves_bottom} alt="Vijoh Light Logo" />
 
 
         </div>
