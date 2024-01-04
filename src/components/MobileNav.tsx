@@ -10,7 +10,7 @@ const MobileNav = () => {
         setActive(type);
         const targetElement = document.getElementById(`section${type}`);
         if (targetElement) {
-            const offset = -100;
+            const offset = -20;
             const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
             window.scrollTo({
                 top: targetPosition + offset,

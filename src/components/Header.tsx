@@ -22,7 +22,7 @@ const Header = () => {
         
       </div>
       </div>
-      <Image className="pointer-events-none w-full min-w-max inset-0" src={blue_waves_top} alt="Vijoh Light Logo" />
+      <Image className="pointer-events-none w-full min-w-max inset-0 scale-150 sm:scale-125 md:scale-110" src={blue_waves_top} alt="Vijoh Light Logo" />
     </div>
   );
 };
