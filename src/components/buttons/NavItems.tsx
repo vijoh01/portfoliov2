@@ -22,10 +22,10 @@ const NavItems = ({dark, iconSize} : any) => {
     
   return (
     <div className="flex justify-between items-center w-full max-w-[45rem] min-w-[20rem]">
-        <button onClick={() => handleClick('A')} className={`${dark ? "text-primary-dark" : "text-primary-light"}`}>About</button>
-        <button onClick={() => handleClick('B')} className={`${dark ? "text-primary-dark" : "text-primary-light"}`}>Knowledge</button>
-        <button onClick={() => handleClick('C')} className={`${dark ? "text-primary-dark" : "text-primary-light"}`}>Projects</button>
-        <button onClick={() => handleClick('D')} className={`${dark ? "text-primary-dark" : "text-primary-light"}`}>Contact</button>
+        <button onClick={() => handleClick('A')} className={`text-primary-dark dark:text-primary-light`}>About</button>
+        <button onClick={() => handleClick('B')} className={`text-primary-dark dark:text-primary-light`}>Knowledge</button>
+        <button onClick={() => handleClick('C')} className={`text-primary-dark dark:text-primary-light`}>Projects</button>
+        <button onClick={() => handleClick('D')} className={`text-primary-dark dark:text-primary-light`}>Contact</button>
     </div>
   );
 };

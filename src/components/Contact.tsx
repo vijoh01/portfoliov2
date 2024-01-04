@@ -62,9 +62,9 @@ const Contact = () => {
         <div className="w-full bg-primary-light text-primary-dark flex flex-col items-center pt-20 md:pt-10" id="sectionD">
       
           
-                <form className='flex flex-col w-full sm:w-[40rem] px-5 mb-16'>
+                <form className='flex flex-col w-full sm:w-[40rem] px-5 mb-20'>
                 <h1 className="text-4xl w-full">Connect With Me</h1>
-                <p className="my-4 text-lg">I'm thrilled that you've made it to this part of my portfolio. Whether you have a project in mind, a question to ask, or just want to say hi, I'm all ears (virtually speaking, of course). Your thoughts and ideas matter to me.</p>
+                <p className="my-4 text-lg mb-10">I'm thrilled that you've made it to this part of my portfolio. Whether you have a project in mind, a question to ask, or just want to say hi, I'm all ears (virtually speaking, of course). Your thoughts and ideas matter to me.</p>
                     <div className="flex w-full flex-col sm:flex-row items-center justify-between">
                         <div className="flex flex-col sm:mr-2 w-full">
                             <label className='' htmlFor="email">Name</label>
