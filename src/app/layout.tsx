@@ -27,7 +27,6 @@ export default function RootLayout({
 
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:type" content={metadata.ogType} />
-        <meta property="og:url" content={metadata.ogUrl} />
         <meta property="og:description" content={metadata.ogDescription} />
 
         <script
