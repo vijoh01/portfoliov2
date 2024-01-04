@@ -29,8 +29,6 @@ export default function RootLayout({
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:url" content={metadata.ogUrl} />
         <meta property="og:description" content={metadata.ogDescription} />
-        <meta property="og:image" content={"./src/imgs/vijoh-dark.png"} />
-        <meta property="og:image:width" content="400" />
 
         <script
           type="application/ld+json"
