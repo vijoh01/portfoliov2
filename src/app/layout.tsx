@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import React from 'react'
-import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-       <Head>
+       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
@@ -44,7 +43,7 @@ export default function RootLayout({
             }),
           }}
         />
-      </Head>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
