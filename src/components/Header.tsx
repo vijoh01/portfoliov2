@@ -10,7 +10,7 @@ import { PiArrowSquareOutThin } from "react-icons/pi";
 const Header = () => {
   return (
     <div className="w-full bg-primary-light dark:bg-primary-dark flex flex-col items-center justify-between">
-        <div className="flex items-center md:justify-evenly flex-col md:flex-row w-full mt-5 sm:mt-12 pb-5">
+        <div className="flex items-center md:justify-evenly flex-col md:flex-row w-full mt-5 sm:mt-12 pb-5 ">
       <Image className="pointer-events-none w-[200px] sm:w-[300px]" src={me} alt="Vijoh Light Logo" />
       <div className="mt-10 md:mt-0 max-w-[17rem] sm:max-w-[27rem] ">
         <h1 className="w-full  text-3xl sm:text-5xl text-primary-dark dark:text-primary-light">Code and Design, I Make Ideas Real.</h1>

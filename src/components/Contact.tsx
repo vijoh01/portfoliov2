@@ -59,7 +59,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="w-full bg-primary-light text-primary-dark flex flex-col items-center " id="sectionD">
+        <div className="w-full bg-primary-light text-primary-dark flex flex-col items-center pt-20 md:pt-10" id="sectionD">
       
           
                 <form className='flex flex-col w-full sm:w-[40rem] px-5 mb-16'>
@@ -84,7 +84,7 @@ const Contact = () => {
 
 
           
-            <Image className="pointer-events-none w-full min-w-max inset-0" src={black_wave_footer} alt="Vijoh Light Logo" />
+            <Image className="pointer-events-none w-full min-w-max inset-0 " src={black_wave_footer} alt="Vijoh Light Logo" />
         </div>
     );
 };

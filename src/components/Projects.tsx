@@ -40,8 +40,8 @@ const Projects = () => {
 
 
     return (
-        <div className="w-full bg-orange flex flex-col items-center justify-between" id="sectionC">
-            <div className="flex items-center flex-col text-primary-dark max-w-[95%] sm:max-w-[70%]">
+        <div className="w-full bg-orange flex flex-col items-center justify-between pt-20 md:pt-16" id="sectionC">
+            <div className="flex items-center flex-col text-primary-dark max-w-[95%] sm:max-w-[70%] pb-20 md:pb-10">
                 <h2 className="text-4xl w-full">Projects</h2>
 
                 <div className='flex w-full overflow-x-scroll mt-5'>
@@ -54,7 +54,7 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
-            <Image className={"pointer-events-none w-full min-w-max"} src={white_waves} alt="" />
+            <Image className={"pointer-events-none w-full min-w-max scale-150 sm:scale-125 md:scale-110"} src={white_waves} alt="" />
             
         </div>
     );

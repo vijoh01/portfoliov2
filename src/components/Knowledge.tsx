@@ -80,8 +80,8 @@ const Knowledge = () => {
 
 
     return (
-        <div className="w-full bg-primary-dark flex flex-col items-center justify-between -mb-5 pt-10" id="sectionB">
-            <div className="flex items-center flex-col text-primary-light max-w-[17rem] sm:max-w-[27rem]">
+        <div className="w-full bg-primary-dark flex flex-col items-center justify-between -mb-5 pt-20 md:pt-10" id="sectionB">
+            <div className="flex items-center flex-col text-primary-light max-w-[17rem] sm:max-w-[27rem] pb-20 md:pb-10">
                 <h2 className="text-4xl w-full">Knowledge</h2>
                 <p className="mt-4 text-lg">I am a fast learner who always seeks to improve and expand my knowledge. With proficiency in programming languages and a diverse skill set, I continuously strive to learn more and enhance my abilities.</p>
 
@@ -96,7 +96,7 @@ const Knowledge = () => {
                 </div>
 
             </div>
-            <Image className="pointer-events-none w-full min-w-max inset-0" src={orange_waves_top} alt="Vijoh Light Logo" />
+            <Image className="pointer-events-none w-full min-w-max inset-0 scale-150 sm:scale-125 md:scale-110" src={orange_waves_top} alt="Vijoh Light Logo" />
         </div>
     );
 };
