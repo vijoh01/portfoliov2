@@ -43,18 +43,18 @@ const Projects = () => {
 
     return (
         <div className="w-full bg-orange flex flex-col items-center justify-between pt-20 md:pt-16" id="projects">
-            <div className="flex items-center flex-col text-primary-dark max-w-[95%] sm:max-w-[70%] pb-20 md:pb-10">
+            <div className="flex items-center flex-col text-primary-dark max-w-[100%] sm:max-w-[70%] pb-20 md:pb-10">
                 <h2 className="text-4xl w-full">Projects</h2>
 
-                <div className='flex w-full overflow-x-scroll mt-5'>
+                <div className='flex w-full overflow-x-auto scroll-py-20 mt-5'>
                     {projects.map((project, index) => (
-                        <div key={index} className='relative h-[25rem]  border '>
-                            <Image className="h-full object-cover w-[25rem]" src={project.file} alt=""></Image>
-                            <div className="w-[25rem]"></div>
-                            <div className='absolute top-0 left-0 flex flex-col items-center justify-end h-full w-[25rem]'>
-                                <div className="h-40 bg-[#ffffffc5] flex flex-col justify-center items-center w-[25rem]">
+                        <div key={index} className='relative h-[25rem] px-1'>
+                            <Image className="h-full object-cover w-[16rem] md:w-[25rem] " src={project.file} alt=""></Image>
+                            <div className="w-[16rem] md:w-[25rem] "></div>
+                            <div className='absolute top-0 left-0 flex flex-col items-center justify-end h-full w-full '>
+                                <div className="h-[50%] bg-[#ffffffc5] flex flex-col justify-between items-center w-[16rem] md:w-[25rem] px-2 py-5">
                                     <h1 className="">{project.name}</h1>
-                                    <p className="text-center w-[25rem]">{project.description}</p>
+                                    <p className="text-center w-full">{project.description}</p>
                                     <a href={project.link} className="mt-5 px-10 py-2 bg-primary-dark text-primary-light cursor-pointer">Visit</a>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
-            <Image className={"pointer-events-none w-full min-w-max scale-150 sm:scale-125 md:scale-110"} src={white_waves} alt="" />
+            <Image className={"pointer-events-none w-full min-w-max scale-150 sm:scale-125 md:scale-110"} loading="lazy" src={white_waves} alt="" />
 
         </div>
     );

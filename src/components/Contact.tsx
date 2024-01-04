@@ -84,7 +84,7 @@ const Contact = () => {
 
 
           
-            <Image className="pointer-events-none w-full min-w-max inset-0 scale-150 sm:scale-125 md:scale-110" src={black_wave_footer} alt="Vijoh Light Logo" />
+            <Image className="pointer-events-none w-full min-w-max inset-0 scale-150 sm:scale-125 md:scale-110" loading="lazy" src={black_wave_footer} alt="Vijoh Light Logo" />
         </div>
     );
 };
