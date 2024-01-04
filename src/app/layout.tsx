@@ -6,8 +6,9 @@ import React from 'react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Viktor Johansson Portfolio',
+  title: 'Portfolio - Viktor Johansson | Experienced Web & App Developer',
   description: 'Code and Design, I Make Ideas Real. Discover my expertise in React.js and web development through my latest projects.',
+  keywords: 'Web development, React.js, portfolio, app development, code, design, viktor johansson, viktor johansson portfolio, viktor johansson developer, viktor johansson programmerare, UX developer',
 }
 
 export default function RootLayout({
