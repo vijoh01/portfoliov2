@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Portfolio - Viktor Johansson | Experienced Web & App Developer',
-  description: 'Code and Design, I Make Ideas Real. Discover my expertise in React.js and web development through my latest projects',
+  ogDescription: 'Code and Design, I Make Ideas Real. Discover my expertise in React.js and web development through my latest projects',
   keywords: 'web development, React.js, portfolio, app development, code, design, viktor johansson, viktor johansson portfolio, viktor johansson developer, viktor johansson programmerare, UX developer',
   ogTitle: 'Code and Design, I Make Ideas Real.',
   ogType: 'Portfolio',
@@ -24,13 +24,14 @@ export default function RootLayout({
     <html lang="en">
        <head>
         <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
 
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:url" content={metadata.ogUrl} />
+        <meta property="og:description" content={metadata.ogDescription} />
         <meta property="og:image" content={metadata.ogImage} />
+        <meta property="og:image:width" content="400" />
 
         <script
           type="application/ld+json"
