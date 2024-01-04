@@ -59,7 +59,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="w-full bg-primary-light flex flex-col items-center " id="sectionD">
+        <div className="w-full bg-primary-light text-primary-dark flex flex-col items-center " id="sectionD">
       
           
                 <form className='flex flex-col w-full sm:w-[40rem] px-5 mb-16'>

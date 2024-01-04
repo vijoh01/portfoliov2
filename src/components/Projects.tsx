@@ -43,7 +43,7 @@ const Projects = () => {
         <div className="w-full bg-orange flex flex-col items-center justify-between" id="sectionC">
             <div className="flex items-center flex-col text-primary-dark max-w-[95%] sm:max-w-[70%]">
                 <h2 className="text-4xl w-full">Projects</h2>
-          
+
                 <div className='flex w-full overflow-x-scroll mt-5'>
                     {languages.map((lang, index) => (
                         <div key={index} className='w-full'>
@@ -54,7 +54,8 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
-            <Image className="pointer-events-none w-full min-w-max inset-0 -mb-5" src={white_waves} alt="Vijoh Light Logo" />
+            <Image className={"pointer-events-none w-full min-w-max"} src={white_waves} alt="" />
+            
         </div>
     );
 };
