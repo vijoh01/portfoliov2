@@ -67,7 +67,7 @@ const Contact = () => {
                 <p className="my-4 text-lg mb-10">I'm thrilled that you've made it to this part of my portfolio. Whether you have a project in mind, a question to ask, or just want to say hi, I'm all ears (virtually speaking, of course). Your thoughts and ideas matter to me.</p>
                     <div className="flex w-full flex-col sm:flex-row items-center justify-between">
                         <div className="flex flex-col sm:mr-2 w-full">
-                            <label className='' htmlFor="email">Name</label>
+                            <label className='' htmlFor="name">Name</label>
                             <input type="text" name="name" id="name" className='px-1 py-1 text-primary-dark border border-primary-dark border-opacity-20' value={values.name} onChange={handleChange} required />
                         </div>
                         <div className="flex flex-col w-full">

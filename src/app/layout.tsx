@@ -22,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
        <head>
         <title>{metadata.ogTitle}</title>
+        <meta name="description" content={metadata.ogDescription} />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="google-site-verification" content="TR0s54qrdcogQVIxo3iB9xzX8M5JFEKLH8geIaXANMY" />
         <meta property="og:title" content={metadata.ogTitle} />
