@@ -22,7 +22,7 @@ const Header = () => {
         
       </div>
       </div>
-      <Image className="pointer-events-none w-full min-w-max scale-150 sm:scale-125 md:scale-110 z-10" loading="lazy" src={blue_waves_top} alt="Vijoh Light Logo" />
+      <Image className="pointer-events-none w-full min-w-max scale-150 sm:scale-125 md:scale-110 z-10" loading="lazy" decoding="async" src={blue_waves_top} alt="Vijoh Light Logo" />
     </div>
   );
 };
