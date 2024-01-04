@@ -28,7 +28,6 @@ export default function RootLayout({
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:description" content={metadata.ogDescription} />
         <meta property="og:image" content={metadata.ogImage} />
-        <meta property="og:image:width" content="400" />
 
         <script
           type="application/ld+json"
