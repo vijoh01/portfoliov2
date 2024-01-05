@@ -10,7 +10,7 @@ export const metadata = {
   ogDescription: 'Code and Design, I Make Ideas Real. Discover my expertise in React.js and web development through my latest projects',
   keywords: 'web development, React.js, portfolio, app development, code, design, viktor johansson, viktor johansson portfolio, viktor johansson developer, viktor johansson programmerare, UX developer',
   ogType: 'Portfolio',
-  ogImage: 'https://www.vijoh.com/api/image',
+  ogImage: 'https://localhost:3000/api/image',
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:description" content={metadata.ogDescription} />
         
-        <meta property="og:image" content={metadata.ogImage} />
+        {/*<meta property="og:image" content={metadata.ogImage} />*/}
        
         <script
           type="application/ld+json"
