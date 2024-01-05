@@ -10,7 +10,7 @@ export const metadata = {
   ogDescription: 'Code and Design, I Make Ideas Real. Discover my expertise in React.js and web development through my latest projects',
   keywords: 'web development, React.js, portfolio, app development, code, design, viktor johansson, viktor johansson portfolio, viktor johansson developer, viktor johansson programmerare, UX developer',
   ogType: 'Portfolio',
-  ogImage: 'https://media.licdn.com/dms/image/D4D03AQFYBuXXAxZP9Q/profile-displayphoto-shrink_800_800/0/1697198819673?e=2147483647&v=beta&t=qlJcMWmT8eI36OOGEJwI2BegNyw_nv_YJ2_Ve9NdnLs',
+  ogImage: 'https://www.vijoh.com/api/image',
 };
 
 export default function RootLayout({
@@ -30,7 +30,6 @@ export default function RootLayout({
         <meta property="og:description" content={metadata.ogDescription} />
         
         <meta property="og:image" content={metadata.ogImage} />
-        <meta property="og:image:width" content="200" />
         <link rel="icon" type="image/png" sizes="16x16" href="./src/imgs/me.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="./src/imgs/me.png" />
         <script
