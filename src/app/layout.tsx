@@ -4,6 +4,7 @@ import './globals.css'
 import React from 'react'
 import vijoh from '@/imgs/vijoh-dark.png'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -49,6 +50,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>{children}
       <SpeedInsights />
+      <Analytics />
       </body>
     </html>
   )
