@@ -12,7 +12,8 @@ export const metadata = {
   ogDescription: 'Code and Design, I Make Ideas Real. Discover my expertise in React.js and web development through my latest projects',
   keywords: 'web development, React.js, portfolio, app development, code, design, viktor johansson, viktor johansson portfolio, viktor johansson developer, viktor johansson programmerare, UX developer',
   ogType: 'Portfolio',
-  ogImage: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80',
+  image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80',
+  ogImage: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=50&q=80',
 };
 
 export default function RootLayout({
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
        <head>
         <title>{metadata.ogTitle}</title>
+        <meta property="og:image" content={metadata.ogImage} />
         <meta name="description" content={metadata.ogDescription} />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="google-site-verification" content="TR0s54qrdcogQVIxo3iB9xzX8M5JFEKLH8geIaXANMY" />
@@ -31,10 +33,10 @@ export default function RootLayout({
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:description" content={metadata.ogDescription} />
         <meta property="twitter:title" content={metadata.ogTitle}></meta>
-        <meta property="twitter:card" content={metadata.ogImage}></meta>
-        <meta property="twitter:image" content={metadata.ogImage}></meta>
+        <meta property="twitter:card" content={metadata.image}></meta>
+        <meta property="twitter:image" content={metadata.image}></meta>
         <meta property="twitter:description" content={metadata.ogDescription}></meta>
-        <meta property="og:image" content={metadata.ogImage} />
+        
         <meta property="og:url" content="https://www.vijoh.com/"/>
         <script
           type="application/ld+json"
