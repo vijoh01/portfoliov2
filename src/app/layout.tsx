@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
        <head>
         <title>{metadata.ogTitle}</title>
-        <meta property="og:image" content={metadata.ogImage} />
+         {/*<meta property="og:image" content={metadata.ogImage} />
         <meta name="description" content={metadata.ogDescription} />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="google-site-verification" content="TR0s54qrdcogQVIxo3iB9xzX8M5JFEKLH8geIaXANMY" />
@@ -37,7 +37,7 @@ export default function RootLayout({
         <meta property="twitter:image" content={metadata.image}></meta>
         <meta property="twitter:description" content={metadata.ogDescription}></meta>
         
-        <meta property="og:url" content="https://www.vijoh.com/"/>
+        <meta property="og:url" content="https://www.vijoh.com/"/>*/}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
