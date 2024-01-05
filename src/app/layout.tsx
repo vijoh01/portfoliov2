@@ -29,8 +29,8 @@ export default function RootLayout({
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:description" content={metadata.ogDescription} />
         
-        {/*<meta property="og:image" content={metadata.ogImage} />
-        <meta property="og:image:width" content="100" />*/}
+        <meta property="og:image" content={metadata.ogImage} />
+        <meta property="og:image:width" content="200" />
         <link rel="icon" type="image/png" sizes="16x16" href="./src/imgs/me.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="./src/imgs/me.png" />
         <script
