@@ -33,10 +33,3 @@ export const downloadCV = () => {
     method: "POST",
   });
 };
-
-export const image = () => {
-  return fetcher({
-    url: "/api/image",
-    method: "GET",
-  });
-};
