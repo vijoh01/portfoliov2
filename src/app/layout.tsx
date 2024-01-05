@@ -29,9 +29,12 @@ export default function RootLayout({
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:type" content={metadata.ogType} />
         <meta property="og:description" content={metadata.ogDescription} />
-        
+        <meta property="twitter:title" content={metadata.ogTitle}></meta>
+        <meta property="twitter:card" content={metadata.ogImage}></meta>
+        <meta property="twitter:image" content={metadata.ogImage}></meta>
+        <meta property="twitter:description" content={metadata.ogDescription}></meta>
         <meta property="og:image" content={metadata.ogImage} />
-       
+        <meta property="og:url" content="https://www.vijoh.com/"/>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
