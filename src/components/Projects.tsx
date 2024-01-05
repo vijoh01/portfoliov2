@@ -42,7 +42,7 @@ const Projects = () => {
 
 
     return (
-        <div className="w-full bg-orange flex flex-col items-center justify-between pt-20 md:pt-16" id="projects">
+        <div className="w-full bg-orange flex flex-col items-center justify-between pt-16" id="projects">
             <div className="flex items-center flex-col text-primary-dark max-w-[100%] sm:max-w-[70%] pb-20 md:pb-10">
                 <h2 className="text-4xl w-full text-center">Projects</h2>
 
