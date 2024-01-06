@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   ogTitle: 'Portfolio - Viktor Johansson | Experienced Web & App Developer',
   ogDescription: 'Code and Design, I Make Ideas Real. Discover my expertise in React.js and web development through my latest projects',
-  keywords: 'web development, React.js, portfolio, app development, code, design, viktor johansson, viktor johansson portfolio, viktor johansson developer, viktor johansson programmerare, UX developer, vijoh, webutvecklare lund, webdeveloper portfolio, viktor johansson lund',
+  keywords: 'web development, React.js, portfolio, app development, code, design, viktor johansson, viktor johansson portfolio, viktor johansson developer, viktor johansson programmerare, UX developer, vijoh, webutvecklare lund, webdeveloper portfolio, viktor johansson lund, viktor johansson developer, viktor johansson programmer, programmer',
   ogType: 'website',
   ogImage: 'https://i.postimg.cc/85kcs3Y1/1.png',
 };
