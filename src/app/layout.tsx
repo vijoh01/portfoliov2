@@ -11,8 +11,8 @@ export const metadata = {
   ogTitle: 'Portfolio - Viktor Johansson | Experienced Web & App Developer',
   ogDescription: 'Code and Design, I Make Ideas Real. Discover my expertise in React.js and web development through my latest projects',
   keywords: 'web development, React.js, portfolio, app development, code, design, viktor johansson, viktor johansson portfolio, viktor johansson developer, viktor johansson programmerare, UX developer',
-  ogType: 'Portfolio',
-  ogImage: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80',
+  ogType: 'website',
+  ogImage: 'https://i.postimg.cc/85kcs3Y1/1.png',
 };
 
 export default function RootLayout({
@@ -33,6 +33,7 @@ export default function RootLayout({
         <meta property="twitter:title" content={metadata.ogTitle}></meta>
         <meta property="twitter:card" content={metadata.ogImage}></meta>
         <meta property="twitter:image" content={metadata.ogImage}></meta>
+        <meta property="twitter:domain" content="vijoh.com"></meta>
         <meta property="twitter:description" content={metadata.ogDescription}></meta>
         <meta property="og:image" content={metadata.ogImage} />
         <meta property="og:url" content="https://www.vijoh.com/"/>
