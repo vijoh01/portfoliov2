@@ -1,9 +1,6 @@
 "use client"
 import React from "react";
-import lightLogo from "@/imgs/vijoh-light.png"
 import Image from 'next/image';
-import me from '@/imgs/me.svg'
-import NavItems from "./buttons/NavItems";
 import blue_waves_bottom from "@/imgs/blue_waves_bottom.svg"
 import { PiLayout } from "react-icons/pi";
 

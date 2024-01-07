@@ -1,6 +1,5 @@
 "use client"
 import React from "react";
-import lightLogo from "@/imgs/vijoh-light.png"
 import Image from 'next/image';
 
 import orange_waves_top from "@/imgs/orange_waves_top.svg"

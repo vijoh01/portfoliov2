@@ -1,16 +1,8 @@
 "use client"
 import React from "react";
-import lightLogo from "@/imgs/vijoh-light.png"
 import Image from 'next/image';
 
 import white_waves from "@/imgs/white_waves.svg"
-
-import { DiJava, DiMysql, DiJqueryLogo, DiReact } from 'react-icons/di'
-import { AiFillHtml5, AiFillGithub, AiOutlineFundProjectionScreen } from 'react-icons/ai'
-import { BsFillHddNetworkFill } from 'react-icons/bs'
-import { TiCss3 } from 'react-icons/ti'
-
-import { SiTypescript, SiJavascript, SiMaterialdesignicons, SiExpress } from 'react-icons/si'
 
 import weather from '@/imgs/weather.png'
 import msg from '@/imgs/msgboard.png'

@@ -1,9 +1,7 @@
 "use client"
 import React from "react";
-import lightLogo from "@/imgs/vijoh-light.png"
 import Image from 'next/image';
 import me from '@/imgs/me.png'
-import NavItems from "./buttons/NavItems";
 import blue_waves_top from "@/imgs/blue_waves_top.svg"
 import { PiArrowSquareOutThin } from "react-icons/pi";
 

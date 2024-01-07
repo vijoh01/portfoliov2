@@ -1,8 +1,6 @@
 "use client"
 import React, { useState } from "react";
 
-import { PiLinkedinLogo, PiGithubLogo, PiEnvelope } from "react-icons/pi";
-
 const NavItems = ({dark, iconSize} : any) => {
 
     const [active, setActive] = useState(null);
