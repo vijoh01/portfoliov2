@@ -8,7 +8,7 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: any = {
-  ogTitle: 'ViJoh Portfolio - Viktor Johansson | Experienced Web & App Developer',
+  ogTitle: 'Vijoh Portfolio - Viktor Johansson | Experienced Web & App Developer',
   ogDescription: 'Welcome to Viktor Johansson`s Web Development Portfolio. As a seasoned web developer with a passion for crafting exceptional digital experiences, I specialize in front-end and back-end development, responsive design, and creating innovative solutions tailored to your needs. Explore my portfolio to discover a diverse range of projects showcasing expertise in HTML5, CSS3, JavaScript, and more. Let`s collaborate to bring your web vision to life. Contact me for professional and creative web development services.',
   keywords: 'Web development services, Front-end development, Back-end development, Responsive web design, Custom website development, Mobile app development, E-commerce solutions, Website optimization, User interface (UI) design, User experience (UX) design, HTML5/CSS3 development, JavaScript development, Node.js development, Python/Django development, Website maintenance, CMS development, Web security, SEO-friendly websites, Cross-browser compatibility, Website performance optimization, API integration, Web hosting solutions, Social media integration, Web accessibility, Viktor Johansson Web Developer, Viktor Johansson Portfolio, Viktor Johansson Web Design, Viktor Johansson programmerare, Viktor Johansson webbutvecklare, Viktor Johansson linkedin, Viktor Johansson Dev, Viktor Johansson',
   ogType: 'website',
